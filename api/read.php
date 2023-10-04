@@ -2,8 +2,8 @@
     header("Access-Control-Allow-Origin: *");
     header("Content-Type: application/json; charset=UTF-8");
     
-    include_once '/var/www/html/config/database.php';
-    include_once '/var/www/html/class/Schedules.php';
+    include_once '../config/database.php';
+    include_once '../class/Schedules.php';
 
     $database = new Database();
     $db = $database->getConection();
