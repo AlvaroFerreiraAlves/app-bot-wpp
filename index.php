@@ -52,7 +52,7 @@
             buttons: [
                 'excel'
             ],
-            "ajax": "https://www.app-bot-wpp.rf.gd/api/read.php",
+            "ajax": "https://app-bot-wpp-production.up.railway.app/api/read.php",
             "columns": [
                 {
                     "data": "pdv"
